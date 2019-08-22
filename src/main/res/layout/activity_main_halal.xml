@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22F8FF"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainHalal">
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#F1ECEA"
+        app:defaultQueryHint="Cari Produk"
+        app:queryHint="Cari Produk" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:src="@drawable/hl" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="276dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginLeft="140dp"
+        android:text="luki_novita(instagram)"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

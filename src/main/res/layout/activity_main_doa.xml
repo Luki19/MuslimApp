@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainDoa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#22F8FF"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/doaharianislam" />
+
+        <Button
+            android:id="@+id/btn_Doa_Masuk_Rumah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doa Masuk Rumah"
+            android:textColor="#E91E63"
+            android:textColorHint="#FF5722"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Doa_Keluar_Rumah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Doa Keluar Rumah"
+            android:textColor="#E91E63"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Doa_Sebelum_Belajar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Doa Sebelum Belajar"
+            android:textColor="#E91E63"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Doa_Sesudah_Belajar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Doa Sesudah Belajar"
+            android:textColor="#E91E63"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Doa_Masuk_Mesjid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Doa Masuk Masjid"
+            android:textColor="#E91E63"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Doa_Keluar_Masjid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Doa Keluar Masjid"
+            android:textColor="#E91E63"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Doa_Masuk_KamarMandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Doa Masuk Kamar Mandi"
+            android:textColor="#E91E63"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Doa_Keluar_KamarMandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Doa Keluar Kamar Mandi"
+            android:textColor="#E91E63"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
